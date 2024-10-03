@@ -21,10 +21,10 @@ $(window).scroll(function () {
 
     if ($(this).scrollTop() > 45) {
         $('.navbar').addClass('sticky-top shadow-sm');
-        logo.attr('src', 'img/logo.png'); // Remplace par ton logo lorsque tu scrolles
+        logo.attr('src', 'img/logo2.png'); // Remplace par ton logo lorsque tu scrolles
     } else {
         $('.navbar').removeClass('sticky-top shadow-sm');
-        logo.attr('src', 'img/logoblanc.png'); // Logo d'origine
+        logo.attr('src', 'img/logo5.png'); // Logo d'origine
     }
 });
 
